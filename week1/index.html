@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnNest | Student Learning Resources</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="top">
+        <h1 class="brand">Learn<span>Nest</span></h1>
+        <p class="slogan">Free study resources for web development students</p>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#welcome">Welcome</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#materials">Study Materials</a></li>
+            <li><a href="#watch-listen">Watch &amp; Listen</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="banner" id="welcome">
+        <figure>
+            <img src="images/banner.jpg" alt="Green hills and a sun with a stack of colorful books in front">
+            <figcaption>Welcome to your new study space</figcaption>
+        </figure>
+        <div class="banner-text">
+            <h2>Start learning the web, one step at a time</h2>
+            <p>Courses, notes, videos and music for students who are just beginning.</p>
+            <a class="button" href="#courses">See courses</a>
+        </div>
+    </section>
+
+    <div class="wrapper">
+
+        <aside class="sidebar" id="news">
+            <section class="box">
+                <h2>News</h2>
+                <ul>
+                    <li><strong>Mon:</strong> New HTML lesson added</li>
+                    <li><strong>Wed:</strong> Study group meets at 2 PM</li>
+                    <li><strong>Fri:</strong> Workshop 1 deadline</li>
+                </ul>
+            </section>
+
+            <section class="box">
+                <h2>Helpful Links</h2>
+                <ul>
+                    <li><a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
+                    <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                    <li><a href="https://web.dev/learn" target="_blank">web.dev Learn</a></li>
+                    <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+                </ul>
+            </section>
+
+            <section class="box">
+                <h2>Tip of the Day</h2>
+                <figure>
+                    <img src="images/tips.jpg" alt="A desk lamp lighting up the dark">
+                    <figcaption>Good ideas start small.</figcaption>
+                </figure>
+                <p>Type the code yourself instead of copying it. You will remember more.</p>
+            </section>
+        </aside>
+
+        <main>
+
+            <section id="courses">
+                <h2>Our Courses</h2>
+                <p>All courses are made for beginners. Choose one to begin.</p>
+
+                <div class="course-list">
+                    <article class="course html-course">
+                        <img src="images/html.jpg" alt="Lines of colorful code inside a dark window">
+                        <h3>HTML Basics</h3>
+                        <p>Build the structure of a web page.</p>
+                        <p class="meta">2 weeks | Beginner</p>
+                        <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML" target="_blank">Open course</a>
+                    </article>
+
+                    <article class="course css-course">
+                        <img src="images/css.jpg" alt="A painter's palette with different colors">
+                        <h3>CSS Styling</h3>
+                        <p>Add colors, fonts and spacing.</p>
+                        <p class="meta">3 weeks | Beginner</p>
+                        <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS" target="_blank">Open course</a>
+                    </article>
+
+                    <article class="course layout-course">
+                        <img src="images/layout.jpg" alt="Colored boxes arranged like a web page layout">
+                        <h3>Page Layout</h3>
+                        <p>Learn Flexbox and CSS Grid.</p>
+                        <p class="meta">2 weeks | Intermediate</p>
+                        <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout" target="_blank">Open course</a>
+                    </article>
+                </div>
+            </section>
+
+            <section id="materials">
+                <h2>Study Materials</h2>
+
+                <article class="material">
+                    <figure>
+                        <img src="images/notes.jpg" alt="Five colorful books standing on a wooden shelf">
+                        <figcaption>Revision notes</figcaption>
+                    </figure>
+                    <div class="material-text">
+                        <h3>Notes and Cheat Sheets</h3>
+                        <p>Short notes you can read quickly before class or a test.</p>
+                        <ul>
+                            <li>List of common HTML tags</li>
+                            <li>CSS properties cheat sheet</li>
+                            <li>Flexbox and Grid quick guide</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="material">
+                    <figure>
+                        <img src="images/group.jpg" alt="Three students sitting together at a table">
+                        <figcaption>Study group time</figcaption>
+                    </figure>
+                    <div class="material-text">
+                        <h3>Join a Study Group</h3>
+                        <p>Learning with others makes hard topics easier. To join:</p>
+                        <ol>
+                            <li>Pick a topic you want to learn</li>
+                            <li>Come to the weekly meeting</li>
+                            <li>Share what you built</li>
+                        </ol>
+                    </div>
+                </article>
+            </section>
+
+            <section id="watch-listen">
+                <h2>Watch &amp; Listen</h2>
+
+                <div class="media-row">
+                    <article class="media-item">
+                        <h3>Video: How a Website Works</h3>
+                        <video controls poster="images/banner.jpg">
+                            <source src="media/web-basics.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </article>
+
+                    <article class="media-item">
+                        <h3>Audio: Study Music</h3>
+                        <p>Put this on while you read or code.</p>
+                        <audio controls>
+                            <source src="media/study-music.mp3" type="audio/mpeg">
+                            Your browser does not support the audio tag.
+                        </audio>
+                    </article>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <footer id="contact">
+        <div class="footer-grid">
+            <div>
+                <h3>LearnNest</h3>
+                <p>A student project for 5CS045 Full Stack Web Development.</p>
+            </div>
+            <div>
+                <h3>Go to</h3>
+                <ul>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#materials">Study Materials</a></li>
+                    <li><a href="#watch-listen">Watch &amp; Listen</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <p>hello@learnnest.example</p>
+                <p>Kathmandu, Nepal</p>
+            </div>
+            <p class="copy">&copy; 2026 LearnNest</p>
+        </div>
+    </footer>
+
+</body>
+</html>
